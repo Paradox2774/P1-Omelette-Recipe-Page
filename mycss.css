@@ -1,0 +1,110 @@
+@font-face {
+  font-family: "YoungSerif";
+  src: url("C:\Users\DELL\Downloads\recipe-page-main\recipe-page-main\assets\fonts\young-serif\YoungSerif-Regular.ttf")
+    format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Apply the font to your elements */
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #706a6a;
+}
+body {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  font-family: "Lato", sans-serif;
+}
+
+.Omelette {
+  max-width: 800px; /* Keeps recipes within a fixed width */
+  margin: 0 auto; /* Centers the container on the page */
+  padding: 20px;
+  background-color: #333;
+  border-radius: 2%;
+  padding: 50px;
+}
+img {
+  border-radius: 2%;
+  width: 95%;
+}
+.Ome-p {
+  color: #7c7671;
+  font-size: 17px;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  background-color: #333;
+}
+ul {
+  padding-left: 50px;
+  background-color: #333;
+  color: #e4b51a;
+}
+ul li::marker {
+  color: #a67d00; /* Change this to your preferred bullet color */
+}
+li {
+  font-size: 17px;
+  background-color: #333;
+  font-family: "Roboto", sans-serif;
+  color: #7c7671;
+}
+.Ome-prep {
+  color: #7c7671;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #333;
+  padding-left: 50px;
+}
+b,
+p {
+  background-color: #333;
+}
+.separator {
+  border: none; /* Remove the default border */
+  height: 2px; /* Height of the line */
+  background-color: rgb(59, 58, 58); /* Line color */
+  margin: 20px 0; /* Spacing above and below the line */
+}
+ol {
+  padding-left: 50px;
+  background-color: #333;
+  color: #e4b51a;
+}
+ol li::marker {
+  color: #a67d00; /* Change this to your preferred bullet color */
+}
+table {
+  width: 100%; /* Full width */
+  border-collapse: collapse; /* Collapse borders */
+  background-color: #333;
+}
+td {
+  border: none;
+  padding-left: 80px; /* Padding inside cells */
+  text-align: left; /* Align text to the left */
+  background-color: #333;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  color: #7c7671;
+}
+
+tbody tr {
+  border-bottom: 2px solid rgb(59, 58, 58); /* Add a bottom border to each row */
+}
+
+tbody tr:nth-child(even) {
+  background-color: #333; /* Light gray background for even rows */
+}
